@@ -1,0 +1,107 @@
+{
+  "app": {
+    "name": "comps-fan",
+    "app_group_name": "comps-fan",
+    "git_repo_url": "",
+    "online_version": "2026.11.16-2",
+    "build_version": "2026.11.16-2",
+    "platform": "unpkg",
+    "create_at": "2026-11-17T08:04:02.563Z"
+  },
+  "version": {
+    "plugin_ver": "5.4.3",
+    "extract_mode": "build",
+    "sub_app_name": "comps-fan",
+    "sub_app_version": "comps-fan@2026.11.16-2",
+    "version_tag": "2026.11.16-2",
+    "src_map": {
+      "webDirPath": "/comps-fan/hel_dist",
+      "htmlIndexSrc": "/comps-fan/hel_dist/index.html",
+      "extractMode": "all",
+      "iframeSrc": "",
+      "chunkCssSrcList": [
+        "/comps-fan/hel_dist/assets/style-DTxpoeFu.css"
+      ],
+      "chunkJsSrcList": [
+        "/comps-fan/hel_dist/assets/index-9uXR8FrU.js",
+        "/comps-fan/hel_dist/assets/shared-runtime-B1tDCw32.js",
+        "/comps-fan/hel_dist/assets/standalone-lHVvNW0J.js",
+        "/comps-fan/hel_dist/assets/vendor-BEOAl7i3.js",
+        "/comps-fan/hel_dist/assets/_virtual_comps-fan-uno-C6tbDbII.js"
+      ],
+      "staticCssSrcList": [],
+      "staticJsSrcList": [
+        "https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js"
+      ],
+      "relativeCssSrcList": [],
+      "relativeJsSrcList": [],
+      "headAssetList": [
+        {
+          "tag": "staticScript",
+          "append": false,
+          "attrs": {
+            "src": "https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js"
+          }
+        },
+        {
+          "tag": "script",
+          "append": true,
+          "attrs": {
+            "src": "/comps-fan/hel_dist/assets/index-9uXR8FrU.js",
+            "type": "module",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-fan/hel_dist/assets/shared-runtime-B1tDCw32.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-fan/hel_dist/assets/vendor-BEOAl7i3.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-fan/hel_dist/assets/_virtual_comps-fan-uno-C6tbDbII.js",
+            "rel": "modulepreload",
+            "crossorigin": ""
+          }
+        },
+        {
+          "tag": "link",
+          "append": true,
+          "attrs": {
+            "href": "/comps-fan/hel_dist/assets/style-DTxpoeFu.css",
+            "rel": "stylesheet",
+            "crossorigin": ""
+          }
+        }
+      ],
+      "bodyAssetList": [],
+      "otherSrcList": [
+        "/comps-fan/hel_dist/assets/index-9uXR8FrU.js.gz",
+        "/comps-fan/hel_dist/assets/standalone-lHVvNW0J.js.gz",
+        "/comps-fan/hel_dist/assets/style-DTxpoeFu.css.gz",
+        "/comps-fan/hel_dist/assets/vendor-BEOAl7i3.js.gz",
+        "/comps-fan/hel_dist/index.html"
+      ],
+      "srvModSrcList": [],
+      "srvModSrcIndex": ""
+    },
+    "html_content": "<!doctype html>\r\n<!-- hel-standalone：独立调试页的作用域标记，避免远程产物把页面级样式注入宿主 -->\r\n<html lang=\"zh-CN\" class=\"hel-standalone\">\r\n  <head>\r\n    <meta charset=\"UTF-8\" />\r\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\r\n    <title>comps-fan</title>\r\n    <!--\r\n      vue 被 external 成 window.Vue，独立访问本页时由这里的 CDN 提供运行时；\r\n      data-helappend=\"0\"：宿主通过 hel 解析本页时跳过该脚本，\r\n      使用宿主 bindVueRuntime 注入的那一份 vue，避免双 vue 导致响应式失效。\r\n    -->\r\n    <script\r\n      data-helappend=\"0\"\r\n      src=\"https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js\"\r\n    ></script>\r\n    <script type=\"module\" crossorigin src=\"/comps-fan/hel_dist/assets/index-9uXR8FrU.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-fan/hel_dist/assets/shared-runtime-B1tDCw32.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-fan/hel_dist/assets/vendor-BEOAl7i3.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-fan/hel_dist/assets/_virtual_comps-fan-uno-C6tbDbII.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-fan/hel_dist/assets/style-DTxpoeFu.css\">\n  </head>\r\n  <body>\r\n    <div id=\"app\" data-comps-fan-standalone></div>\r\r\n  </body>\r\n</html>\r\n",
+    "create_at": "2026-11-17T08:04:02.563Z",
+    "desc": "this version meta is created by hel-dev-utils@5.4.3"
+  }
+}
