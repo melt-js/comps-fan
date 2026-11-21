@@ -6,7 +6,7 @@
     "online_version": "2026.11.16-2",
     "build_version": "2026.11.16-2",
     "platform": "unpkg",
-    "create_at": "2026-11-20T17:57:30.711Z"
+    "create_at": "2026-11-21T05:53:20.553Z"
   },
   "version": {
     "plugin_ver": "5.4.3",
@@ -95,18 +95,13 @@
         "/comps-fan/hel_dist/assets/standalone-IFmVlGwn.js.gz",
         "/comps-fan/hel_dist/assets/style-CnvDfUyY.css.gz",
         "/comps-fan/hel_dist/assets/vendor-DBEaweAd.js.gz",
-        "/comps-fan/hel_dist/cdn/example-esm.html",
-        "/comps-fan/hel_dist/cdn/example-umd.html",
-        "/comps-fan/hel_dist/cdn/index.esm.mjs",
-        "/comps-fan/hel_dist/cdn/index.umd.cjs",
-        "/comps-fan/hel_dist/cdn/manifest.json",
         "/comps-fan/hel_dist/index.html"
       ],
       "srvModSrcList": [],
       "srvModSrcIndex": ""
     },
     "html_content": "<!doctype html>\n<!-- hel-standalone：独立调试页的作用域标记，避免远程产物把页面级样式注入宿主 -->\n<html lang=\"zh-CN\" class=\"hel-standalone\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>comps-fan</title>\n    <!--\n      vue 被 external 成 window.Vue，独立访问本页时由这里的 CDN 提供运行时；\n      data-helappend=\"0\"：宿主通过 hel 解析本页时跳过该脚本，\n      使用宿主 bindVueRuntime 注入的那一份 vue，避免双 vue 导致响应式失效。\n    -->\n    <script\n      data-helappend=\"0\"\n      src=\"https://unpkg.com/vue@3.5.45/dist/vue.global.prod.js\"\n    ></script>\n    <script type=\"module\" crossorigin src=\"/comps-fan/hel_dist/assets/index-CX5GKQH5.js\"></script>\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-fan/hel_dist/assets/shared-runtime-B1tDCw32.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-fan/hel_dist/assets/vendor-DBEaweAd.js\">\n    <link rel=\"modulepreload\" crossorigin href=\"/comps-fan/hel_dist/assets/_virtual_comps-fan-uno-C6tbDbII.js\">\n    <link rel=\"stylesheet\" crossorigin href=\"/comps-fan/hel_dist/assets/style-CnvDfUyY.css\">\n  </head>\n  <body>\n    <div id=\"app\" data-comps-fan-standalone></div>\n  </body>\n</html>\n",
-    "create_at": "2026-11-20T17:57:30.711Z",
+    "create_at": "2026-11-21T05:53:20.553Z",
     "desc": "this version meta is created by hel-dev-utils@5.4.3"
   }
 }
